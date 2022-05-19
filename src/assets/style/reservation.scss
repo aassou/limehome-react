@@ -1,0 +1,39 @@
+@import './colors.scss';
+
+.mytable {
+    width: 90%;
+    margin: auto;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-beige {
+    background-color: $beige;
+}
+
+.form-control {
+    background-color: $beige !important;
+    border-radius: unset !important;
+    height: 50px;
+}
+
+.country {
+    div {
+        background-color: transparent;
+        border-radius: 0;
+        padding: 0.21em;
+    }
+
+    #react-select-3-listbox {
+        background-color: white;
+    }
+}
+
+.rdrDateRangePickerWrapper {
+    position: absolute;
+    margin-top: 50px;
+}

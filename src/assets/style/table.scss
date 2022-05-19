@@ -1,0 +1,18 @@
+@import './colors.scss';
+
+.booking-list {
+    width: 100%;
+}
+
+.table-header-inversed {
+    background: #212529;
+    color: white;
+    height: 50px;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: $darkblue;
+    border-style: solid !important;
+    border-width: 1px !important;
+    padding: 5px;
+}

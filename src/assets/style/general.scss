@@ -1,0 +1,262 @@
+@import './colors.scss';
+
+.booking-container {
+    width: 100%;
+
+    .home-image {
+        height: auto;
+        width: 300px;
+        border-radius: 40%;
+    }
+
+    nav {
+        background-color: whitesmoke !important;
+        font-size: 24px;
+        a {
+            color: $darkblue;
+
+            &:hover {
+                color: $brown;
+            }
+        }
+
+        
+    }
+}
+
+a {
+    text-decoration: none !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.mycontent {
+    margin-top: 56px !important;
+}
+.bg-light-blue {
+    background-color: $lightblue !important;
+}
+.bg-brown {
+    background-color: $brown !important;
+}
+.bg-grey {
+    background-color: $grey !important;
+}
+.auth-btn:hover {
+    background-color: #01DBDF;
+}
+.text-darkblue {
+    color:$darkblue;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-red {
+    background-color: $red !important;
+}
+.h-100 {
+    height: 100%;
+}
+.none {
+    display: none;
+}
+.z-index-10 {
+    z-index: 10;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.profileForm {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.349) ;
+
+
+    .form {
+        background-color: white;
+        position: relative;
+        .form-select:focus {
+                outline: none;
+                box-shadow: none;
+        }
+        
+
+    }
+}
+.select-list {
+    background-color: #ffffff;
+    background-image: none !important;
+    filter: none !important;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.max-w-50 {
+    width: 50px;
+}
+.closebtn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: gray;
+    border: none;
+    background-color: white;
+}
+.border-lightblue {
+    border-color: $lightblue;
+}
+.input-error {
+    background-color: red !important;
+}
+.grid-four {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.clickable {
+    cursor: pointer;
+}
+.add-user-form {
+    min-height: 900px;
+    padding: 50px;
+    form {
+        color: $lightgray;
+        width: 60%;
+        margin: 0 auto;
+        input:focus{
+            outline: none;
+            box-shadow: none;
+            border: none;
+        }
+        .alert-danger:focus {
+            background-color: #F8D7DA;
+        }
+        .input-wrapper {
+            position: relative;
+        }
+        i {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-left: 1px solid $lightgray;
+            padding: 5px 0 5px 10px;
+        }
+
+        .submit-wraper {
+            display: flex;
+            // border-top: 1px $lightblue dotted;
+        }
+    }
+}
+
+.appartements {
+    input:focus{
+        outline: none;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .add-user-form {
+        min-height: 900px;
+        padding: 50px;
+        form {
+            width: 100%;
+        }
+        }
+
+    .grid-four {
+        grid-template-columns: 1fr;
+    }
+    .grid-two {
+        grid-template-columns: 1fr;
+    }
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+}
+.flex-1 {
+    flex: 1;
+}
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.pr-5 {
+    padding-right: 5px;
+}
+.pr-10 {
+    padding-right: 10px;
+}
+.p-10 {
+    padding: 10px !important;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fs-24 {
+    font-size: 24px;
+}
+.btn-cancel {
+    background-color: #EFEFEF !important;
+    margin-right: 10px;
+}
+.btn {
+    border-radius: 0 !important;
+    margin: 5px 5px 0 0;
+
+    &.book {
+        height: 50px;
+        width: 250px;
+    }
+
+    &.grey {
+        background-color: $grey;
+        padding: 10px;
+
+        &:hover {
+            background-color: $brown !important;
+        }
+    }
+
+    &.blue {
+        background-color: $darkblue;
+        padding: 10px;
+
+        &:hover {
+            background-color: $brown !important;
+        }
+    }
+
+    &.paginate {
+        background-color: $brown;
+    }
+}

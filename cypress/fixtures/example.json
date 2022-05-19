@@ -1,0 +1,11 @@
+{
+  "guestNumber": 1,
+  "firsname": "Bjarne",
+  "lastname": "Stroustrup",
+  "billingAddress": "Hestehavevej 22",
+  "billingCountry": "Denmark",
+  "postalCode": "45221",
+  "city": "Copenhagen",
+  "email": "b.stroustrup@cplusplus.io",
+  "phoneNumber": "02115245"
+}
